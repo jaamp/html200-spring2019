@@ -1,0 +1,23 @@
+.btn-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding: 2em;
+    margin: 1em;
+    font-size: 1em;
+    text-align: center;
+}
+
+.header, .main-h2, .message-area {
+    text-align: center;
+}
+
+.message-area {
+    background: wheat;
+    color: purple;
+    border: 5px solid black;
+    width: 50%;
+    margin: auto;
+}

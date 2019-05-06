@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="banking.css" />
+  </head>
+  <body>
+    <div id="body">
+    <header class="header">
+      <h1>Welcome to Banc-o-Matic Online Banking</h1>
+      <hr/>
+    </header>
+    <main class="main">
+      <h2 class="main-h2">Please select a transaction type</h2>
+      <fieldset>
+        <legend>Click The Appropriate Button To Start The Transaction</legend>
+          <div class="btn-flex">
+            <input type="button" class="btn" value="Withdraw"/>
+            <input type="button" class="btn" value="Deposit"/>
+            <input type="button" class="btn" value="Get Balance"/>
+            <input type="button" class="btn" value="Quit"/>
+           </div>
+      </fieldset>
+    </main>
+    <section class="message-area">
+      <h2>Message Area</h2>
+      <div class="message-div">
+        <h3 id="message-line"></h3>
+      </div>
+    </section>
+    </div>
+    <script src="banking.js">
+    </script>
+  </body>
+</html>
